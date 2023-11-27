@@ -1,0 +1,79 @@
+.sidebar {
+    background-color: rgb(10, 67, 137);
+    width: 250px;
+    height: 100vh;
+    padding: 30px;
+}
+.sidebar h2 {
+    margin: 20px 0;
+    color: #fff;
+}
+
+
+
+.courses-list,
+.course-categories {
+    padding: 50px;
+}
+
+.courses-list ul {
+    display: flex;
+    justify-content: start;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.courses-list ul li {
+    width: 370px;
+    height: 450px;
+    border: 1px solid rgb(10, 67, 137);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.courses-list ul li img {
+    width: 100%;
+    height: auto;
+}
+.courses-list ul li .info {
+    padding: 15px;
+}
+.courses-list ul li .info h2 {
+    margin: 5px 0 10px 0;
+}
+.courses-list ul li .info h3 {
+    font-weight: lighter;
+    margin: 12px 0;
+}
+.courses-list ul li .info .inside-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 3px 0;
+}
+.courses-list ul li .info .inside-wrapper.side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses-list ul li .info i {
+    font-size: 15px;
+    color: rgb(238, 212, 12);
+}
+.courses-list ul li .info span {
+    padding: 5px;
+    background-color: rgb(10, 67, 137);
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+.course-categories ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.course-categories ul li i {
+    font-size: 15px;
+    color: rgb(10, 67, 137);
+}

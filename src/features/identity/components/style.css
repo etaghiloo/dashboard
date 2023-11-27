@@ -1,0 +1,58 @@
+.box {
+    text-align: center;
+    width: 450px;
+    padding: 30px;
+    margin: 120px auto;
+    background-color: beige;
+    border: 1px solid rgb(10, 67, 137);
+    border-radius: 10px;
+}
+.box h1 {
+    margin: 20px 0;
+}
+.box h3 {
+    margin: 10px 0;
+}
+.box h3 a {
+    color: rgb(10, 67, 137);
+}
+
+.box form div {
+    position: relative;
+    padding: 10px 0;
+}
+.box form label {
+    display: block;
+    text-align: right;
+    padding-bottom: 7px;
+    font-size: 11px;
+}
+.box form input {
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+.box form input.is-invalid {
+    border: 1px solid rgb(197, 46, 46);
+}
+.box form p.error {
+    color: rgb(197, 46, 46);
+    text-align: right;
+    padding: 3px 0;
+}
+.box form p.success {
+    background-color: rgb(93, 233, 177);
+    padding: 7px;
+    font-size: 13px;
+}
+.box form button.submit {
+    border: 1px solid rgb(10, 67, 137);
+    background-color: rgb(10, 67, 137);
+    color: #fff;
+    width: 100%;
+    padding: 7px;
+    margin: 25px 0;
+}
+.box form button.submit:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Lato"), url("../public/fonts/iranyekan/woff2/IRANYekanWebRegular.woff2");
+}
+
+body {
+    direction: rtl;
+    margin: 0;
+    font-family: "IRANYekan";
+    font-size: 10px;
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
